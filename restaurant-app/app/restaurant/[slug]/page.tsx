@@ -14,7 +14,6 @@ export default function RestaurantDetails() {
       <main className="max-w-screen-2xl m-auto bg-white">
         <NavBarComponent/>
         <RestaurantHeaderComponent/>
-        {/* DESCRIPTION PORTION */}
         <div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
           <div className="bg-white w-[70%] rounded p-3 shadow">
             <RestaurantNavBarComponent/>
@@ -28,6 +27,5 @@ export default function RestaurantDetails() {
         </div>
       </main>
     </main>
-
   );
 }
