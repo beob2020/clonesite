@@ -19,5 +19,5 @@ export default function RestaurantMenuPage() {
         {/* DESCRIPTION PORTION */}
       </main>
     </main>
-  );
+  )
 }

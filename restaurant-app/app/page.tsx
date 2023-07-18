@@ -1,8 +1,6 @@
-import Link from "next/link";
 import NavBarComponent from "@/app/components/ui/NavBarComponent";
 import HeaderComponent from "@/app/components/ui/HeaderComponent";
 import CardComponent from "@/app/components/ui/CardComponent";
-
 
 export default function Home() {
   return (
@@ -11,12 +9,11 @@ export default function Home() {
         <NavBarComponent/>
         <main>
           <HeaderComponent/>
-            <div className="py-3 px-36 mt-10 flex flex-wrap justify-center">
-              <CardComponent/>
-            </div>
+          <div className="py-3 px-36 mt-10 flex flex-wrap justify-center">
+            <CardComponent/>
+          </div>
         </main>
       </main>
     </main>
-
   );
 }
